@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import ThankYou from '@/app/thank-you/page';
-import { useRouter } from 'next/router';
 
 jest.mock('next/router', () => ({
   useRouter: jest.fn(),
